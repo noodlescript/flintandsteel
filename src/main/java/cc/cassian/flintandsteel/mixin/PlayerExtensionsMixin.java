@@ -7,14 +7,11 @@ import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import io.wispforest.accessories.api.AccessoriesCapability;
 import io.wispforest.accessories.api.slot.SlotEntryReference;
 import net.minecraft.core.Holder;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvent;
 import org.spongepowered.asm.mixin.Debug;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.injection.At;
 
 import java.util.List;
 
@@ -24,7 +21,7 @@ import static com.mojang.text2speech.Narrator.LOGGER;
 @Mixin(PlayerExtensionsKt.class)
 public class PlayerExtensionsMixin {
     @WrapMethod(method = "getBattleTheme")
-    private static SoundEvent mixin(ServerPlayer serverPlayer, Operation<SoundEvent> original) {
+    private static ResourceLocation mixin(ServerPlayer serverPlayer, Operation<ResourceLocation> original) {
         LOGGER.info("Changing battle theme!");
         final Holder<SoundEvent>[] theme = new Holder[1];
         serverPlayer.getInventory().items.forEach((stack)-> {
@@ -44,7 +41,7 @@ public class PlayerExtensionsMixin {
             }
         }
         if (theme[0] != null) {
-            return theme[0].value();
+            return theme[0].value().getLocation();
         } else {
             return original.call(serverPlayer);
         }

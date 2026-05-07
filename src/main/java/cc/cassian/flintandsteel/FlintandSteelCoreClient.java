@@ -33,7 +33,7 @@ public class FlintandSteelCoreClient {
     static void addTooltip(ItemTooltipEvent event) {
         if (event.getItemStack().has(FlintAndSteelComponentTypes.BATTLE_THEME)) {
             var b = event.getItemStack().get(FlintAndSteelComponentTypes.BATTLE_THEME).value().getLocation();
-            event.getToolTip().add(Component.literal("Battle Music: ").withStyle(ChatFormatting.YELLOW).append(Component.translatableWithFallback(b.toLanguageKey(), WordUtils.capitalizeFully(b.getPath().replaceAll("_"," ").replace(".", " "))).withStyle(ChatFormatting.WHITE)));
+            event.getToolTip().add(Component.literal("Battle Music: ").withStyle(ChatFormatting.DARK_GRAY).append(Component.translatableWithFallback(b.toLanguageKey(), WordUtils.capitalizeFully(b.getPath().replaceAll("_"," ").replace(".", " "))).withStyle(ChatFormatting.YELLOW)));
         }
     }
 }

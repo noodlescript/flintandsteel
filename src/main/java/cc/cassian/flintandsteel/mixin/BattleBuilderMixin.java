@@ -13,12 +13,4 @@ import org.spongepowered.asm.mixin.injection.At;
 @Mixin(BattleBuilder.class)
 public abstract class BattleBuilderMixin {
 
-    val ARID = WorldStateModifier { _, entity ->
-        if (ServerPlayer.().getBiome(entity.blockPosition()).(BiomeTags.SPAWNS_WARM_VARIANT_FROGS)
-            2.5F
-        else
-            1F
-    }
-
-
 }

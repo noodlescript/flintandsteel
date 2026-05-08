@@ -1,6 +1,6 @@
 package cc.cassian.flintandsteel.mixin;
 
-import cc.cassian.flintandsteel.registry.FlintAndSteelComponentTypes;
+import cc.cassian.flintandsteel.registry.FlintSteelComponentTypes;
 import com.cobblemon.mod.common.util.PlayerExtensionsKt;
 import com.llamalad7.mixinextras.injector.wrapmethod.WrapMethod;
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
@@ -25,8 +25,8 @@ public class PlayerExtensionsMixin {
         LOGGER.info("Changing battle theme!");
         final Holder<SoundEvent>[] theme = new Holder[1];
         serverPlayer.getInventory().items.forEach((stack)-> {
-            if (stack.has(FlintAndSteelComponentTypes.BATTLE_THEME)) {
-                theme[0] = stack.get(FlintAndSteelComponentTypes.BATTLE_THEME);
+            if (stack.has(FlintSteelComponentTypes.BATTLE_THEME)) {
+                theme[0] = stack.get(FlintSteelComponentTypes.BATTLE_THEME);
             }
         });
         if (theme[0] != null) {
@@ -34,8 +34,8 @@ public class PlayerExtensionsMixin {
             if (capability != null) {
                 List<SlotEntryReference> allEquipped = capability.getAllEquipped();
                 for (SlotEntryReference slotEntryReference : allEquipped) {
-                    if (slotEntryReference.stack().has(FlintAndSteelComponentTypes.BATTLE_THEME)) {
-                        theme[0] = slotEntryReference.stack().get(FlintAndSteelComponentTypes.BATTLE_THEME);
+                    if (slotEntryReference.stack().has(FlintSteelComponentTypes.BATTLE_THEME)) {
+                        theme[0] = slotEntryReference.stack().get(FlintSteelComponentTypes.BATTLE_THEME);
                     }
                 }
             }

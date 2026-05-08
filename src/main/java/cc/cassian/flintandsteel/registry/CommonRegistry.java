@@ -1,6 +1,6 @@
 package cc.cassian.flintandsteel.registry;
 
-import cc.cassian.flintandsteel.FlintandSteelCore;
+import cc.cassian.flintandsteel.FlintSteelCore;
 import net.minecraft.core.Registry;
 import net.minecraft.core.component.DataComponentType;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -15,7 +15,7 @@ import java.util.function.UnaryOperator;
 public class CommonRegistry {
     public static <R, T extends R> Supplier<T> register(String name, Supplier<T> supplier, Registry<R> reg) {
         T object = supplier.get();
-        Registry.register(reg, FlintandSteelCore.of(name), object);
+        Registry.register(reg, FlintSteelCore.of(name), object);
         return () -> object;
     }
 

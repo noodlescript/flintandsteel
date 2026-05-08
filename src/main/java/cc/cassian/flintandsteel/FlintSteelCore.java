@@ -1,11 +1,10 @@
 package cc.cassian.flintandsteel;
 
-import cc.cassian.flintandsteel.registry.FlintAndSteelComponentTypes;
+import cc.cassian.flintandsteel.registry.FlintSteelComponentTypes;
+import cc.cassian.flintandsteel.registry.FlintSteelSoundEvents;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent;
 import net.neoforged.neoforge.registries.RegisterEvent;
 import org.slf4j.Logger;
 
@@ -15,16 +14,14 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.ModContainer;
-import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
-@Mod(FlintandSteelCore.MODID)
-@EventBusSubscriber(modid = FlintandSteelCore.MODID)
-public class FlintandSteelCore {
-    public static final String MODID = "flintandsteel";
+@Mod(FlintSteelCore.MODID)
+@EventBusSubscriber(modid = FlintSteelCore.MODID)
+public class FlintSteelCore {
+    public static final String MODID = "flintsteel";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public FlintandSteelCore(IEventBus modEventBus, ModContainer modContainer) {
+    public FlintSteelCore(IEventBus modEventBus, ModContainer modContainer) {
 
     }
 
@@ -35,7 +32,13 @@ public class FlintandSteelCore {
     @SubscribeEvent
     static void register(RegisterEvent event) {
         if (event.getRegistryKey().equals(Registries.DATA_COMPONENT_TYPE)) {
-            FlintAndSteelComponentTypes.touch();
+            FlintSteelComponentTypes.touch();
         }
+        if (event.getRegistryKey().equals(Registries.SOUND_EVENT)) {
+            FlintSteelSoundEvents.touch();
+        }
+    }
+    public static ResourceLocation location(String path) {
+        return ResourceLocation.fromNamespaceAndPath(MODID, path);
     }
 }

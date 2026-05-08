@@ -4,6 +4,7 @@
   "package": "cc.cassian.flintandsteel.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
+    "SmithingTableMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -10,7 +10,8 @@
     "defaultRequire": 1
   },
   "mixins": [
+    "PlayerExtensionsMixin",
     "PokemonEntityMixin",
-    "PlayerExtensionsMixin"
+    "SmithingEnchantMixin"
   ]
 }

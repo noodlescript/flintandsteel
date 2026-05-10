@@ -28,11 +28,17 @@ public abstract class PokemonEntityMixin {
         if (biome.is(FlintSteelBiomeTags.HAS_ARIDLAND_BATTLE)) {
             return FlintSteelSoundEvents.ARIDLAND_BATTLE.get().getLocation();
         }
+        if (biome.is(FlintSteelBiomeTags.HAS_HIGHLANDS_BATTLE)) {
+            return FlintSteelSoundEvents.HIGHLANDS_BATTLE.get().getLocation();
+        }
         if (biome.is(FlintSteelBiomeTags.HAS_SCULK_BATTLE)) {
             return FlintSteelSoundEvents.SCULK_BATTLE.get().getLocation();
         }
         if (biome.is(FlintSteelBiomeTags.HAS_SEMIARID_BATTLE)) {
             return FlintSteelSoundEvents.SEMIARID_BATTLE.get().getLocation();
+        }
+        if (biome.is(FlintSteelBiomeTags.HAS_TROPICAL_BATTLE)) {
+            return FlintSteelSoundEvents.TROPICAL_BATTLE.get().getLocation();
         }
         if (biome.is(FlintSteelBiomeTags.HAS_NETHER_BATTLE)) {
             return FlintSteelSoundEvents.NETHER_BATTLE.get().getLocation();

@@ -7,6 +7,14 @@
       }
     ]
   },
+  "music.battle.highlands": {
+    "sounds": [
+      {
+        "name": "minecraft:records/precipice",
+        "stream": true
+      }
+    ]
+  },
   "music.battle.sculk": {
     "sounds": [
       {
@@ -16,6 +24,14 @@
     ]
   },
   "music.battle.semiarid": {
+    "sounds": [
+      {
+        "name": "minecraft:records/precipice",
+        "stream": true
+      }
+    ]
+  },
+  "music.battle.tropical": {
     "sounds": [
       {
         "name": "minecraft:records/precipice",

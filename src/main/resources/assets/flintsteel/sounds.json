@@ -1,0 +1,18 @@
+{
+  "music.wild_battle.desert": {
+    "sounds": [
+      {
+        "name": "minecraft:records/otherside",
+        "stream": true
+      }
+    ]
+  },
+  "music.wild_battle.nether": {
+    "sounds": [
+      {
+        "name": "minecraft:records/pigstep",
+        "stream": true
+      }
+    ]
+  }
+}

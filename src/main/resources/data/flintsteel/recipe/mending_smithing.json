@@ -1,0 +1,10 @@
+{
+  "type": "shadismith:smithing_enchant",
+  "base": {
+    "tag": "minecraft:enchantable/weapon"
+  },
+  "template": {
+    "item": "minecraft:paper"
+  },
+  "enchantment": "minecraft:mending"
+}

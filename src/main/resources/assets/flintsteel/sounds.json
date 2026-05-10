@@ -1,5 +1,5 @@
 {
-  "music.wild_battle.desert": {
+  "music.battle.aridland": {
     "sounds": [
       {
         "name": "minecraft:records/precipice",
@@ -7,7 +7,23 @@
       }
     ]
   },
-  "music.wild_battle.nether": {
+  "music.battle.sculk": {
+    "sounds": [
+      {
+        "name": "minecraft:records/precipice",
+        "stream": true
+      }
+    ]
+  },
+  "music.battle.semiarid": {
+    "sounds": [
+      {
+        "name": "minecraft:records/precipice",
+        "stream": true
+      }
+    ]
+  },
+  "music.battle.nether": {
     "sounds": [
       {
         "name": "minecraft:records/pigstep",

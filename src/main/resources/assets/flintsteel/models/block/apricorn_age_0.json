@@ -1,0 +1,43 @@
+{
+	"format_version": "1.21.1",
+	"credit": "Made by Farcr -- Fork by Noodlescript",
+	"render_type": "minecraft:cutout",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "apricorn_assets:block/apricorn",
+		"particle": "nomansland:block/no_particle"
+	},
+	"elements": [
+		{
+			"from": [6.7, 12, 7],
+			"to": [9.7, 15, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 14, 8.5]},
+			"faces": {
+				"north": {"uv": [0, 5, 1.5, 6.5], "texture": "#0"},
+				"east": {"uv": [0, 5, 1.5, 6.5], "texture": "#0"},
+				"south": {"uv": [0, 5, 1.5, 6.5], "texture": "#0"},
+				"west": {"uv": [0, 5, 1.5, 6.5], "texture": "#0"},
+				"up": {"uv": [0, 2.5, 1.5, 4], "texture": "#0"},
+				"down": {"uv": [0, 8, 1.5, 9.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4.5, 15, 9],
+			"to": [11.5, 19, 9],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 17, 9]},
+			"faces": {
+				"north": {"uv": [5.5, 0, 9, 2], "texture": "#0"},
+				"south": {"uv": [5.5, 0, 9, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 15, 5.5],
+			"to": [8, 19, 12.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 17, 9]},
+			"faces": {
+				"east": {"uv": [5.5, 0, 9, 2], "texture": "#0"},
+				"west": {"uv": [5.5, 0, 9, 2], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -2,7 +2,7 @@
   "music.wild_battle.desert": {
     "sounds": [
       {
-        "name": "minecraft:records/otherside",
+        "name": "minecraft:records/precipice",
         "stream": true
       }
     ]

@@ -1,10 +1,10 @@
 {
   "type": "shadismith:smithing_enchant",
   "base": {
-    "tag": "minecraft:enchantable/weapon"
+    "tag": "minecraft:enchantable/durability"
   },
   "template": {
-    "item": "minecraft:paper"
+    "item": "minecraft:nether_star"
   },
   "enchantment": "minecraft:mending"
 }

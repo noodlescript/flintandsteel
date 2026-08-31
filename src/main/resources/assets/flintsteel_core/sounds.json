@@ -18,7 +18,7 @@
   "music.battle.sculk": {
     "sounds": [
       {
-        "name": "minecraft:records/precipice",
+        "name": "flintsteel_core:encounter/daunting_battle",
         "stream": true
       }
     ]

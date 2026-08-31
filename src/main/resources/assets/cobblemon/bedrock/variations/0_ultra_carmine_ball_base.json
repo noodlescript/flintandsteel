@@ -1,12 +1,12 @@
 {
-  "pokeball": "flintsteel_core:umber_ball",
+  "pokeball": "flintsteel_core:ultra_carmine_ball",
   "order": 0,
   "variations": [
     {
       "aspects": [],
       "poser": "cobblemon:poke_ball",
       "model": "cobblemon:poke_ball.geo",
-      "texture": "flintsteel_core:textures/poke_balls/umber_ball.png",
+      "texture": "flintsteel_core:textures/poke_balls/ultra_carmine_ball.png",
       "layers": []
     }
   ]

@@ -1,5 +1,4 @@
-package cc.cassian.flintandsteel.common.items;
-
+package cc.cassian.flintandsteel.cobblemon.items;
 
 import com.cobblemon.mod.common.item.PokedexItem;
 import cc.cassian.flintandsteel.FlintSteelCore;
@@ -71,5 +70,8 @@ public final class FlintSteelPokedexRegistry {
             FlintSteelCore.LOGGER.error("Failed to create Cobblemon PokedexItem for type {}.", typeName, e);
             return null;
         }
+    }
+    public static void touch() {
+
     }
 }

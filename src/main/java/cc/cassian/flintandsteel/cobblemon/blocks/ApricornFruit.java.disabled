@@ -1,4 +1,4 @@
-package cc.cassian.flintandsteel.common.blocks;
+package cc.cassian.flintandsteel.cobblemon.blocks;
 
 import cc.cassian.flintandsteel.registry.FlintSteelBlocks;
 import com.cobblemon.mod.common.CobblemonBlocks;

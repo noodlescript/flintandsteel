@@ -1,12 +1,12 @@
 {
-  "pokeball": "flintsteel_core:umber_ball",
+  "pokeball": "flintsteel_core:celeste_ball",
   "order": 0,
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ancient_poke_ball",
-      "model": "cobblemon:ancient_poke_ball.geo",
-      "texture": "flintsteel_core:textures/poke_balls/umber_ball.png",
+      "poser": "cobblemon:poke_ball",
+      "model": "cobblemon:poke_ball.geo",
+      "texture": "flintsteel_core:textures/poke_balls/celeste_ball.png",
       "layers": []
     }
   ]

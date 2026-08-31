@@ -10,8 +10,9 @@
     "defaultRequire": 1
   },
   "mixins": [
+    "CampfirePotColorMixin",
     "PlayerExtensionsMixin",
-    "PokemonEntityMixin",
-    "PokedexTypeMixin"
+    "PokedexTypeMixin",
+    "PokemonEntityMixin"
   ]
 }

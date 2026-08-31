@@ -1,4 +1,4 @@
-package cc.cassian.flintandsteel.common.items;
+package cc.cassian.flintandsteel.cobblemon.items;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

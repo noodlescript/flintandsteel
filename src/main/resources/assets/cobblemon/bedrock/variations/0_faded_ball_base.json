@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:ancient_poke_ball",
-      "model": "cobblemon:ancient_poke_ball.geo",
+      "poser": "cobblemon:poke_ball",
+      "model": "cobblemon:poke_ball.geo",
       "texture": "flintsteel_core:textures/poke_balls/faded_ball.png",
       "layers": []
     }

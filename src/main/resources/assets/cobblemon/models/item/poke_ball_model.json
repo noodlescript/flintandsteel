@@ -4,9 +4,9 @@
   	"gui_light": "front",
 	"texture_size": [64, 32],
 	"textures": {
-		"1": "flintsteel:item/poke_balls/models/wooden_ball_base",
-		"particle": "flintsteel:item/poke_balls/models/wooden_ball_base",
-		"layer0": "flintsteel:item/poke_balls/models/carmine_ball"
+		"1": "flintsteel_core:item/poke_balls/models/wooden_ball_base",
+		"particle": "flintsteel_core:item/poke_balls/models/wooden_ball_base",
+		"layer0": "flintsteel_core:item/poke_balls/models/carmine_ball"
 	},
 	"elements": [
 		{

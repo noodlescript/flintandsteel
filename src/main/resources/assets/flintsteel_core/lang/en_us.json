@@ -1,0 +1,94 @@
+{
+  "item.flintsteel_core.great_carmine_ball": "Sturdy Poké Ball",
+  "item.flintsteel_core.ultra_carmine_ball": "Deluxe Poké Ball",
+  "item.flintsteel_core.ancient_great_carmine_ball": "Ancient Sturdy Poké Ball",
+  "item.flintsteel_core.ancient_ultra_carmine_ball": "Ancient Deluxe Poké Ball",
+
+  "item.flintsteel_core.great_ivory_ball": "Sturdy Ivory Ball",
+  "item.flintsteel_core.ultra_ivory_ball": "Deluxe Ivory Ball",
+  "item.flintsteel_core.ancient_great_ivory_ball": "Ancient Sturdy Ivory Ball",
+  "item.flintsteel_core.ancient_ultra_ivory_ball": "Ancient Deluxe Ivory Ball",
+
+  "item.flintsteel_core.faded_ball": "Faded Ball",
+  "item.flintsteel_core.great_faded_ball": "Sturdy Faded Ball",
+  "item.flintsteel_core.ultra_faded_ball": "Deluxe Faded Ball",
+  "item.flintsteel_core.ancient_great_faded_ball": "Ancient Sturdy Faded Ball",
+  "item.flintsteel_core.ancient_ultra_faded_ball": "Ancient Deluxe Faded Ball",
+
+  "item.flintsteel_core.great_slate_ball": "Sturdy Pitch Ball",
+  "item.flintsteel_core.ultra_slate_ball": "Deluxe Pitch Ball",
+  "item.flintsteel_core.ancient_great_slate_ball": "Ancient Sturdy Pitch Ball",
+  "item.flintsteel_core.ancient_ultra_slate_ball": "Ancient Deluxe Pitch Ball",
+
+  "item.flintsteel_core.umber_ball": "Umber Ball",
+  "item.flintsteel_core.great_umber_ball": "Sturdy Umber Ball",
+  "item.flintsteel_core.ultra_umber_ball": "Deluxe Umber Ball",
+  "item.flintsteel_core.ancient_great_umber_ball": "Ancient Sturdy Umber Ball",
+  "item.flintsteel_core.ancient_ultra_umber_ball": "Ancient Deluxe Umber Ball",
+
+  "item.flintsteel_core.ochre_ball": "Ochre Ball",
+  "item.flintsteel_core.great_ochre_ball": "Sturdy Ochre Ball",
+  "item.flintsteel_core.ultra_ochre_ball": "Deluxe Ochre Ball",
+  "item.flintsteel_core.ancient_great_ochre_ball": "Ancient Sturdy Ochre Ball",
+  "item.flintsteel_core.ancient_ultra_ochre_ball": "Ancient Deluxe Ochre Ball",
+
+  "item.flintsteel_core.great_citrine_ball": "Sturdy Citrine Ball",
+  "item.flintsteel_core.ultra_citrine_ball": "Deluxe Citrine Ball",
+  "item.flintsteel_core.ancient_great_citrine_ball": "Ancient Sturdy Citrine Ball",
+  "item.flintsteel_core.ancient_ultra_citrine_ball": "Ancient Deluxe Citrine Ball",
+
+  "item.flintsteel_core.jade_ball": "Verdant Ball",
+  "item.flintsteel_core.great_jade_ball": "Sturdy Verdant Ball",
+  "item.flintsteel_core.ultra_jade_ball": "Deluxe Verdant Ball",
+  "item.flintsteel_core.ancient_great_jade_ball": "Ancient Sturdy Verdant Ball",
+  "item.flintsteel_core.ancient_ultra_jade_ball": "Ancient Deluxe Verdant Ball",
+
+  "item.flintsteel_core.great_verdant_ball": "Sturdy Jade Ball",
+  "item.flintsteel_core.ultra_verdant_ball": "Deluxe Jade Ball",
+  "item.flintsteel_core.ancient_great_verdant_ball": "Ancient Sturdy Jade Ball",
+  "item.flintsteel_core.ancient_ultra_verdant_ball": "Ancient Deluxe Jade Ball",
+
+  "item.flintsteel_core.seafoam_ball": "Seafoam Ball",
+  "item.flintsteel_core.great_seafoam_ball": "Sturdy Seafoam Ball",
+  "item.flintsteel_core.ultra_seafoam_ball": "Deluxe Seafoam Ball",
+  "item.flintsteel_core.ancient_great_seafoam_ball": "Ancient Sturdy Seafoam Ball",
+  "item.flintsteel_core.ancient_ultra_seafoam_ball": "Ancient Deluxe Seafoam Ball",
+
+  "item.flintsteel_core.celeste_ball": "Celeste Ball",
+  "item.flintsteel_core.great_celeste_ball": "Sturdy Celeste Ball",
+  "item.flintsteel_core.ultra_celeste_ball": "Deluxe Celeste Ball",
+  "item.flintsteel_core.ancient_great_celeste_ball": "Ancient Sturdy Celeste Ball",
+  "item.flintsteel_core.ancient_ultra_celeste_ball": "Ancient Deluxe Celeste Ball",
+
+  "item.flintsteel_core.great_azure_ball": "Sturdy Azure Ball",
+  "item.flintsteel_core.ultra_azure_ball": "Deluxe Azure Ball",
+  "item.flintsteel_core.ancient_great_azure_ball": "Ancient Sturdy Azure Ball",
+  "item.flintsteel_core.ancient_ultra_azure_ball": "Ancient Deluxe Azure Ball",
+
+  "item.flintsteel_core.mauve_ball": "Mauve Ball",
+  "item.flintsteel_core.great_mauve_ball": "Sturdy Mauve Ball",
+  "item.flintsteel_core.ancient_great_mauve_ball": "Ancient Sturdy Mauve Ball",
+  "item.flintsteel_core.ultra_mauve_ball": "Deluxe Mauve Ball",
+  "item.flintsteel_core.ancient_ultra_mauve_ball": "Ancient Deluxe Mauve Ball",
+
+  "item.flintsteel_core.pastel_ball": "Roseate Ball",
+  "item.flintsteel_core.great_pastel_ball": "Sturdy Roseate Ball",
+  "item.flintsteel_core.ultra_pastel_ball": "Deluxe Roseate Ball",
+  "item.flintsteel_core.ancient_great_pastel_ball": "Ancient Sturdy Roseate Ball",
+  "item.flintsteel_core.ancient_ultra_pastel_ball": "Ancient Deluxe Roseate Ball",
+
+  "item.flintsteel_core.great_roseate_ball": "Sturdy Pastel Ball",
+  "item.flintsteel_core.ultra_roseate_ball": "Deluxe Pastel Ball",
+  "item.flintsteel_core.ancient_great_roseate_ball": "Ancient Sturdy Pastel Ball",
+  "item.flintsteel_core.ancient_ultra_roseate_ball": "Ancient Deluxe Pastel Ball",
+
+  "item.flintsteel_core.pokedex_gray": "Pokédex",
+  "item.flintsteel_core.pokedex_brown": "Pokédex",
+  "item.flintsteel_core.pokedex_orange": "Pokédex",
+  "item.flintsteel_core.pokedex_lime": "Pokédex",
+  "item.flintsteel_core.pokedex_cyan": "Pokédex",
+  "item.flintsteel_core.pokedex_light_blue": "Pokédex",
+  "item.flintsteel_core.pokedex_purple": "Pokédex",
+  "item.flintsteel_core.pokedex_magenta": "Pokédex",
+  "item.flintsteel_core.pokedex_purpur": "Pokédex"
+}

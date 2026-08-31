@@ -20,7 +20,7 @@ import net.neoforged.fml.ModContainer;
 @Mod(FlintSteelCore.MODID)
 @EventBusSubscriber(modid = FlintSteelCore.MODID)
 public class FlintSteelCore {
-    public static final String MODID = "flintsteel";
+    public static final String MODID = "firestriker";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public FlintSteelCore(IEventBus modEventBus, ModContainer modContainer) {

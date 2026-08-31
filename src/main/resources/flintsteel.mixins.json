@@ -12,6 +12,6 @@
   "mixins": [
     "PlayerExtensionsMixin",
     "PokemonEntityMixin",
-    "SmithingEnchantMixin"
+    "PokedexTypeMixin"
   ]
 }

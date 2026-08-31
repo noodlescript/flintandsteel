@@ -1,6 +1,8 @@
 package cc.cassian.flintandsteel;
 
+import cc.cassian.flintandsteel.common.items.FlintSteelBallRegistry;
 import cc.cassian.flintandsteel.registry.FlintSteelComponentTypes;
+import cc.cassian.flintandsteel.registry.FlintSteelItems;
 import cc.cassian.flintandsteel.registry.FlintSteelSoundEvents;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
@@ -31,12 +33,17 @@ public class FlintSteelCore {
 
     @SubscribeEvent
     static void register(RegisterEvent event) {
+        if (event.getRegistryKey().equals(Registries.ITEM)) {
+            FlintSteelBallRegistry.INSTANCE.registerItems();
+            FlintSteelItems.touch();
+        }
         if (event.getRegistryKey().equals(Registries.DATA_COMPONENT_TYPE)) {
             FlintSteelComponentTypes.touch();
         }
         if (event.getRegistryKey().equals(Registries.SOUND_EVENT)) {
             FlintSteelSoundEvents.touch();
         }
+
     }
     public static ResourceLocation location(String path) {
         return ResourceLocation.fromNamespaceAndPath(MODID, path);

@@ -1,0 +1,55 @@
+package cc.cassian.flintandsteel.common.blocks;
+
+import cc.cassian.flintandsteel.registry.FlintSteelBlocks;
+import com.cobblemon.mod.common.CobblemonBlocks;
+import com.teamabnormals.atmospheric.core.registry.AtmosphericBlocks;
+import com.teamabnormals.atmospheric.core.registry.AtmosphericItems;
+import net.minecraft.core.Holder;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.phys.shapes.VoxelShape;
+
+public enum ApricornFruit {
+    BROWN_APRICORN_FRUIT(FlintSteelBlocks.BROWN_APRICORN_FRUIT, FlintSteelBlocks.BROWN_APRICORN_LEAVES, CobblemonBlocks.APRICORN_LEAVES, 3, FlintSteelItems.APRICORN, new VoxelShape[]{Block.box((double)5.5F, (double)11.0F, (double)6.5F, (double)10.5F, (double)15.0F, (double)11.5F), Block.box((double)5.5F, (double)11.0F, (double)6.5F, (double)10.5F, (double)15.0F, (double)11.5F), Block.box((double)5.0F, (double)10.0F, (double)6.0F, (double)11.0F, (double)15.0F, (double)12.0F), Block.box((double)5.0F, (double)10.0F, (double)6.0F, (double)11.0F, (double)15.0F, (double)12.0F), Block.box((double)5.0F, (double)10.0F, (double)6.0F, (double)11.0F, (double)15.0F, (double)12.0F)});
+
+    private final Holder<Block> fruit;
+    private final Holder<Block> fruitLeaves;
+    private final Holder<Block> leaves;
+    private final int growthSpeed;
+    private final Holder<Item> fruitDrops;
+    private final VoxelShape[] shapesByAge;
+
+    private ApricornFruit(Holder<Block> fruit, Holder<Block> fruitLeaves, Holder<Block> leaves, int growthSpeed, Holder<Item> fruitDrops, VoxelShape[] shapesByAge) {
+        this.fruit = fruit;
+        this.fruitLeaves = fruitLeaves;
+        this.leaves = leaves;
+        this.growthSpeed = growthSpeed;
+        this.fruitDrops = fruitDrops;
+        this.shapesByAge = shapesByAge;
+    }
+
+    public Holder<Block> getFruitBlock() {
+        return this.fruit;
+    }
+
+    public Holder<Block> getFruitLeaves() {
+        return this.fruitLeaves;
+    }
+
+    public Holder<Block> getLeaves() {
+        return this.leaves;
+    }
+
+    public int getGrowthSpeed() {
+        return this.growthSpeed;
+    }
+
+    public Holder<Item> getFruitDrops() {
+        return this.fruitDrops;
+    }
+
+    public VoxelShape[] getShapesByAge() {
+        return this.shapesByAge;
+    }
+}
+

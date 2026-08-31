@@ -1,4 +1,4 @@
-package cc.cassian.flintandsteel.cobblemon.items;
+package cc.cassian.flintandsteel.cobblemon.blocks;
 
 import com.cobblemon.mod.common.CobblemonSounds;
 import com.cobblemon.mod.common.block.campfirepot.CampfirePotBlock;

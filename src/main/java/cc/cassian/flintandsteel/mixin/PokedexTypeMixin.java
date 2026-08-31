@@ -46,7 +46,7 @@ public abstract class PokedexTypeMixin {
 
     @Inject(method = "<clinit>", at = @At("TAIL"))
     private static void flintsteel$addTypes(CallbackInfo ci) {
-        if (flintsteel$hasType("GRAY")) {
+        if (flintsteel$hasType("MAGENTA")) {
             return;
         }
 

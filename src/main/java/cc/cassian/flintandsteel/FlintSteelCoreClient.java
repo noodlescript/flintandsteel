@@ -1,8 +1,7 @@
 package cc.cassian.flintandsteel;
 
-import cc.cassian.flintandsteel.cobblemon.items.FlintSteelCampfirePotRegistry;
+import cc.cassian.flintandsteel.cobblemon.blocks.FlintSteelCampfirePotRegistry;
 import cc.cassian.flintandsteel.registry.FlintSteelComponentTypes;
-import com.cobblemon.mod.common.client.tooltips.TooltipManager;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -25,10 +24,10 @@ public class FlintSteelCoreClient {
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
-        event.enqueueWork(() -> {
+        /*event.enqueueWork(() -> {
             ItemBlockRenderTypes.setRenderLayer(FlintSteelCampfirePotRegistry.ORANGE_CAMPFIRE_POT_BLOCK, RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(FlintSteelCampfirePotRegistry.PURPLE_CAMPFIRE_POT_BLOCK, RenderType.cutout());
-        });
+        });*/
     }
 
     @SubscribeEvent

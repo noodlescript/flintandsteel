@@ -82,6 +82,69 @@
   "item.flintsteel_core.ancient_great_roseate_ball": "Ancient Sturdy Pastel Ball",
   "item.flintsteel_core.ancient_ultra_roseate_ball": "Ancient Deluxe Pastel Ball",
 
+
+  "block.flintsteel_core.red_apricorn_block": "Carmine Pokéblock",
+  "block.flintsteel_core.red_apricorn_slab": "Carmine Pokéslab",
+  "block.flintsteel_core.red_apricorn_tiles": "Carmine Pokétiles",
+
+  "block.flintsteel_core.white_apricorn_block": "Ivory Pokéblock",
+  "block.flintsteel_core.white_apricorn_slab": "Ivory Pokéslab",
+  "block.flintsteel_core.white_apricorn_tiles": "Ivory Pokétiles",
+
+  "block.flintsteel_core.gray_apricorn_block": "Faded Pokéblock",
+  "block.flintsteel_core.gray_apricorn_slab": "Faded Pokéslab",
+  "block.flintsteel_core.gray_apricorn_tiles": "Faded Pokétiles",
+
+  "block.flintsteel_core.black_apricorn_block": "Pitch Pokéblock",
+  "block.flintsteel_core.black_apricorn_slab": "Pitch Pokéslab",
+  "block.flintsteel_core.black_apricorn_tiles": "Pitch Pokétiles",
+
+  "block.flintsteel_core.brown_apricorn_block": "Umber Pokéblock",
+  "block.flintsteel_core.brown_apricorn_slab": "Umber Pokéslab",
+  "block.flintsteel_core.brown_apricorn_tiles": "Umber Pokétiles",
+
+  "block.flintsteel_core.orange_apricorn_block": "Ochre Pokéblock",
+  "block.flintsteel_core.orange_apricorn_slab": "Ochre Pokéslab",
+  "block.flintsteel_core.orange_apricorn_tiles": "Ochre Pokétiles",
+
+  "block.flintsteel_core.yellow_apricorn_block": "Citrine Pokéblock",
+  "block.flintsteel_core.yellow_apricorn_slab": "Citrine Pokéslab",
+  "block.flintsteel_core.yellow_apricorn_tiles": "Citrine Pokétiles",
+
+  "block.flintsteel_core.lime_apricorn_block": "Verdant Pokéblock",
+  "block.flintsteel_core.lime_apricorn_slab": "Verdant Pokéslab",
+  "block.flintsteel_core.lime_apricorn_tiles": "Verdant Pokétiles",
+
+  "block.flintsteel_core.green_apricorn_block": "Jade Pokéblock",
+  "block.flintsteel_core.green_apricorn_slab": "Jade Pokéslab",
+  "block.flintsteel_core.green_apricorn_tiles": "Jade Pokétiles",
+
+  "block.flintsteel_core.cyan_apricorn_block": "Seafoam Pokéblock",
+  "block.flintsteel_core.cyan_apricorn_slab": "Seafoam Pokéslab",
+  "block.flintsteel_core.cyan_apricorn_tiles": "Seafoam Pokétiles",
+
+  "block.flintsteel_core.light_blue_apricorn_block": "Celeste Pokéblock",
+  "block.flintsteel_core.light_blue_apricorn_slab": "Celeste Pokéslab",
+  "block.flintsteel_core.light_blue_apricorn_tiles": "Celeste Pokétiles",
+
+  "block.flintsteel_core.blue_apricorn_block": "Azure Pokéblock",
+  "block.flintsteel_core.blue_apricorn_slab": "Azure Pokéslab",
+  "block.flintsteel_core.blue_apricorn_tiles": "Azure Pokétiles",
+
+  "block.flintsteel_core.purple_apricorn_block": "Mauve Pokéblock",
+  "block.flintsteel_core.purple_apricorn_slab": "Mauve Pokéslab",
+  "block.flintsteel_core.purple_apricorn_tiles": "Mauve Pokétiles",
+
+  "block.flintsteel_core.magenta_apricorn_block": "Roseate Pokéblock",
+  "block.flintsteel_core.magenta_apricorn_slab": "Roseate Pokéslab",
+  "block.flintsteel_core.magenta_apricorn_tiles": "Roseate Pokétiles",
+
+  "block.flintsteel_core.pink_apricorn_block": "Pastel Pokéblock",
+  "block.flintsteel_core.pink_apricorn_slab": "Pastel Pokéslab",
+  "block.flintsteel_core.pink_apricorn_tiles": "Pastel Pokétiles",
+
+
+
   "item.flintsteel_core.pokedex_gray": "Pokédex",
   "item.flintsteel_core.pokedex_brown": "Pokédex",
   "item.flintsteel_core.pokedex_orange": "Pokédex",

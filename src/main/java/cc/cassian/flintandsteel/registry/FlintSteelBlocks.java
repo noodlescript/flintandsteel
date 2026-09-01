@@ -10,4 +10,7 @@ import static cc.cassian.flintandsteel.registry.CommonRegistry.registerBlock;
 
 public class FlintSteelBlocks {
 
+    public static void touch() {
+
+    }
 }

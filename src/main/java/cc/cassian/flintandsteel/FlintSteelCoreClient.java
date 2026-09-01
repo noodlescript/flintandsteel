@@ -1,6 +1,6 @@
 package cc.cassian.flintandsteel;
 
-import cc.cassian.flintandsteel.cobblemon.blocks.FlintSteelCampfirePotRegistry;
+// import cc.cassian.flintandsteel.cobblemon.blocks.FlintSteelCampfirePotRegistry;
 import cc.cassian.flintandsteel.registry.FlintSteelComponentTypes;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;

@@ -1,0 +1,76 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "cobblemon:item/pokedexes/models/pokedex_red",
+		"particle": "cobblemon:item/pokedexes/models/pokedex_red"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 2, 9],
+			"faces": {
+				"north": {"uv": [0, 10, 8, 11], "texture": "#0"},
+				"east": {"uv": [0.5, 11.5, 5, 12.5], "texture": "#0"},
+				"south": {"uv": [8, 10, 16, 11], "texture": "#0"},
+				"west": {"uv": [0.5, 11.5, 5, 12.5], "texture": "#0"},
+				"up": {"uv": [8, 4.5, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 5, 8, 9.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0.5, 7],
+			"to": [16, 9.5, 9],
+			"rotation": {"angle": 45, "axis": "x", "origin": [0, 0.5, 9]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 4.5], "texture": "#0"},
+				"east": {"uv": [0.5, 11.5, 5, 12.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8, 5, 16, 9.5], "texture": "#0"},
+				"west": {"uv": [0.5, 12.5, 5, 11.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [16, 10, 8, 11], "texture": "#0"},
+				"down": {"uv": [16, 11, 8, 10], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, -180, 0],
+			"translation": [0, 3, 4],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, -180, 0],
+			"translation": [0, 3, 4],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"rotation": [50, -180, 0],
+			"translation": [1, 5, 1],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_lefthand": {
+			"rotation": [50, -180, 0],
+			"translation": [1, 5, 1],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"rotation": [-45, 0, 0],
+			"translation": [0, 3, -5]
+		},
+		"on_shelf": {
+			"rotation": [45, -180, 0],
+			"translation": [0, 0, 2]
+		}
+	}
+}

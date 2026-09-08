@@ -1,15 +1,12 @@
 package cc.cassian.flintandsteel;
 
-import cc.cassian.flintandsteel.cobblemon.blocks.FlintSteelCampfirePotRegistry;
+// import cc.cassian.flintandsteel.cobblemon.blocks.FlintSteelCampfirePotRegistry;
 import cc.cassian.flintandsteel.cobblemon.items.FlintSteelBallRegistry;
 // import cc.cassian.flintandsteel.cobblemon.items.FlintSteelPokedexRegistry;
-import cc.cassian.flintandsteel.cobblemon.items.FlintSteelPokedexRegistry;
 import cc.cassian.flintandsteel.registry.FlintSteelBlocks;
 import cc.cassian.flintandsteel.registry.FlintSteelComponentTypes;
 import cc.cassian.flintandsteel.registry.FlintSteelItems;
 import cc.cassian.flintandsteel.registry.FlintSteelSoundEvents;
-import com.cobblemon.mod.common.CobblemonItems;
-import com.cobblemon.mod.common.item.group.CobblemonItemGroups;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
@@ -17,7 +14,6 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.registries.RegisterEvent;
 import org.slf4j.Logger;
 
@@ -51,13 +47,13 @@ public class FlintSteelCore {
             FlintSteelSoundEvents.touch();
         }
         if (event.getRegistryKey().equals(Registries.BLOCK)) {
-            event.register(BuiltInRegistries.BLOCK.key(), FlintSteelCampfirePotRegistry::registerBlocks);
-            event.register(BuiltInRegistries.ITEM.key(), FlintSteelCampfirePotRegistry::registerItems);
+            // event.register(BuiltInRegistries.BLOCK.key(), FlintSteelCampfirePotRegistry::registerBlocks);
+            // event.register(BuiltInRegistries.ITEM.key(), FlintSteelCampfirePotRegistry::registerItems);
             FlintSteelBlocks.touch();
         }
         if (event.getRegistryKey().equals(Registries.ITEM)) {
             FlintSteelBallRegistry.INSTANCE.registerItems();
-            event.register(BuiltInRegistries.ITEM.key(), FlintSteelPokedexRegistry::registerItems);
+            // event.register(BuiltInRegistries.ITEM.key(), FlintSteelPokedexRegistry::registerItems);
             FlintSteelItems.touch();
         }
     }

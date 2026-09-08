@@ -3,7 +3,6 @@ package cc.cassian.flintandsteel.mixin;
 import java.util.Arrays;
 import java.util.Locale;
 
-import org.jetbrains.annotations.NotNull;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Mutable;
@@ -34,11 +33,6 @@ public abstract class PokedexTypeMixin {
     @Mutable
     private static EnumEntries<PokedexType> $ENTRIES;
 
-    @Shadow
-    public static @NotNull PokedexType @NotNull [] values() {
-        throw new UnsupportedOperationException("Implemented via mixin");
-    }
-
     @Invoker("<init>")
     private static PokedexType flintsteel$invokeInit(String name, int ordinal) {
         throw new AssertionError();
@@ -46,7 +40,16 @@ public abstract class PokedexTypeMixin {
 
     @Inject(method = "<clinit>", at = @At("TAIL"))
     private static void flintsteel$addTypes(CallbackInfo ci) {
-        if (flintsteel$hasType("MAGENTA")) {
+        if (
+            flintsteel$hasType("GRAY") ||
+            flintsteel$hasType("BROWN") ||
+            flintsteel$hasType("ORANGE") ||
+            flintsteel$hasType("LIME") ||
+            flintsteel$hasType("CYAN") ||
+            flintsteel$hasType("LIGHT_BLUE") ||
+            flintsteel$hasType("PURPLE") ||
+            flintsteel$hasType("MAGENTA")
+        ) {
             return;
         }
 
@@ -86,10 +89,13 @@ public abstract class PokedexTypeMixin {
     @Inject(method = "getItemSpritePath", at = @At("HEAD"), cancellable = true)
     private void flintsteel$overrideItemSpritePath(CallbackInfoReturnable<ResourceLocation> cir) {
         String name = ((Enum<?>) (Object) this).name();
-        for (PokedexType type : $VALUES) {
-            if (!type.name().equals(name)) {
-                return;
-            }
+        if (
+                !"GRAY".equals(name) && !"BROWN".equals(name) &&
+                !"ORANGE".equals(name) && !"LIME".equals(name) &&
+                !"CYAN".equals(name) && !"LIGHT_BLUE".equals(name) &&
+                !"PURPLE".equals(name) && !"MAGENTA".equals(name)
+        ) {
+            return;
         }
         String path = "pokedex_" + name.toLowerCase(Locale.ROOT);
         cir.setReturnValue(ResourceLocation.fromNamespaceAndPath(FlintSteelCore.MODID, path));
@@ -98,10 +104,13 @@ public abstract class PokedexTypeMixin {
     @Inject(method = "getItemModelPath", at = @At("HEAD"), cancellable = true)
     private void flintsteel$overrideItemModelPath(String suffix, CallbackInfoReturnable<ResourceLocation> cir) {
         String name = ((Enum<?>) (Object) this).name();
-        for (PokedexType type : $VALUES) {
-            if (!type.name().equals(name)) {
-                return;
-            }
+        if (
+                !"GRAY".equals(name) && !"BROWN".equals(name) &&
+                !"ORANGE".equals(name) && !"LIME".equals(name) &&
+                !"CYAN".equals(name) && !"LIGHT_BLUE".equals(name) &&
+                !"PURPLE".equals(name) && !"MAGENTA".equals(name)
+        ) {
+            return;
         }
         String base = "pokedex_" + name.toLowerCase(Locale.ROOT) + "_model";
         String path = (suffix == null || suffix.isEmpty()) ? base : base + "_" + suffix;

@@ -36,9 +36,19 @@ public abstract class CampfirePotColorMixin {
 
     @Inject(method = "<clinit>", at = @At("TAIL"))
     private static void flintsteel$addColors(CallbackInfo ci) {
-        if (flintsteel$hasColor("GRAY")) {
+        if (
+                flintsteel$hasColor("GRAY") ||
+                flintsteel$hasColor("BROWN") ||
+                flintsteel$hasColor("ORANGE") ||
+                flintsteel$hasColor("LIME") ||
+                flintsteel$hasColor("CYAN") ||
+                flintsteel$hasColor("LIGHT_BLUE") ||
+                flintsteel$hasColor("PURPLE") ||
+                flintsteel$hasColor("MAGENTA")
+        ) {
             return;
         }
+
 
         int base = $VALUES.length;
         CampfirePotColor gray = flintsteel$invokeInit("GRAY", base, "gray");

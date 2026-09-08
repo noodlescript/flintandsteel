@@ -121,7 +121,8 @@ configurations {
 dependencies {
     implementation("maven.modrinth:iGEl6Crx:EAjbdreT") // Biolith
     implementation("maven.modrinth:kjZCvAn6:bcszfrVc") // No Man's Land
-    implementation("com.cobblemon:neoforge:1.7.3+1.21.1") // Cobblemon
+    implementation("maven.modrinth:MdwFAVRL:2oL01rSF") // Cobblemon (1.8)
+//     implementation("com.cobblemon:neoforge:1.7.3+1.21.1") // Cobblemon (1.7.3)
     implementation 'thedarkcolour:kotlinforforge-neoforge:5.12.0'
     implementation("io.wispforest:accessories-neoforge:${project.accessories_version}")
 }

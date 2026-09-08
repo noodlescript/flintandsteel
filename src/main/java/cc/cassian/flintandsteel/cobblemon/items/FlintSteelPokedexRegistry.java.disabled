@@ -36,6 +36,9 @@ public final class FlintSteelPokedexRegistry {
     public static final Item PURPLE_POKEDEX_ITEM = createPokedexItem("PURPLE");
     public static final Item MAGENTA_POKEDEX_ITEM = createPokedexItem("MAGENTA");
 
+    private FlintSteelPokedexRegistry() {
+    }
+
     public static void registerItems(RegisterEvent.RegisterHelper<Item> helper) {
         register(helper, GRAY_POKEDEX_ID, GRAY_POKEDEX_ITEM);
         register(helper, BROWN_POKEDEX_ID, BROWN_POKEDEX_ITEM);

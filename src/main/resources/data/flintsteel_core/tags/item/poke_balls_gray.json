@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "flintsteel_core:great_faded_ball",
+    "flintsteel_core:faded_ball",
+    "flintsteel_core:ultra_faded_ball"
+  ]
+}

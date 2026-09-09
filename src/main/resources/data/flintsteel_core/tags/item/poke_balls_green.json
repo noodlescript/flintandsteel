@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "flintsteel_core:great_jade_ball",
+    "flintsteel_core:jade_ball",
+    "flintsteel_core:ultra_jade_ball"
+  ]
+}

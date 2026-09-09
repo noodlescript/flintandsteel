@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "flintsteel_core:great_pastel_ball",
+    "flintsteel_core:pastel_ball",
+    "flintsteel_core:ultra_pastel_ball"
+  ]
+}

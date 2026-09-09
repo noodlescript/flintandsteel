@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "flintsteel_core:great_slate_ball",
+    "cobblemon:slate_ball",
+    "flintsteel_core:ultra_slate_ball"
+  ]
+}

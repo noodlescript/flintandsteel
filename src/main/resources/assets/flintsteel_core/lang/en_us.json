@@ -153,5 +153,20 @@
   "item.flintsteel_core.pokedex_light_blue": "Pokédex",
   "item.flintsteel_core.pokedex_purple": "Pokédex",
   "item.flintsteel_core.pokedex_magenta": "Pokédex",
-  "item.flintsteel_core.pokedex_purpur": "Pokédex"
+
+  "tag.item.flintsteel_core.poke_balls_white": "Ivory Poké Balls",
+  "tag.item.flintsteel_core.poke_balls_gray": "Faded Poké Balls",
+  "tag.item.flintsteel_core.poke_balls_black": "Pitch Poké Balls",
+  "tag.item.flintsteel_core.poke_balls_brown": "Umber Poké Balls",
+  "tag.item.flintsteel_core.poke_balls_red": "Carmine Poké Balls",
+  "tag.item.flintsteel_core.poke_balls_orange": "Ochre Poké Balls",
+  "tag.item.flintsteel_core.poke_balls_yellow": "Citrine Poké Balls",
+  "tag.item.flintsteel_core.poke_balls_lime": "Verdant Poké Balls",
+  "tag.item.flintsteel_core.poke_balls_green": "Jade Poké Balls",
+  "tag.item.flintsteel_core.poke_balls_cyan": "Seafoam Poké Balls",
+  "tag.item.flintsteel_core.poke_balls_light_blue": "Celeste Poké Balls",
+  "tag.item.flintsteel_core.poke_balls_blue": "Azure Poké Balls",
+  "tag.item.flintsteel_core.poke_balls_purple": "Mauve Poké Balls",
+  "tag.item.flintsteel_core.poke_balls_magenta": "Roseate Poké Balls",
+  "tag.item.flintsteel_core.poke_balls_pink": "Pastel Poké Balls"
 }
